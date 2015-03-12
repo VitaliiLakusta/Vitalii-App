@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BE58C2D1AB1A216009D866C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE58C2C1AB1A216009D866C /* AppDelegate.swift */; };
+		3BE58C2F1AB1A216009D866C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE58C2E1AB1A216009D866C /* ViewController.swift */; };
+		3BE58C321AB1A216009D866C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BE58C301AB1A216009D866C /* Main.storyboard */; };
+		3BE58C341AB1A216009D866C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BE58C331AB1A216009D866C /* Images.xcassets */; };
+		3BE58C371AB1A216009D866C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BE58C351AB1A216009D866C /* LaunchScreen.xib */; };
+		3BE58C431AB1A216009D866C /* Vitalii_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE58C421AB1A216009D866C /* Vitalii_AppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BE58C3D1AB1A216009D866C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BE58C1F1AB1A216009D866C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BE58C261AB1A216009D866C;
+			remoteInfo = "Vitalii App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BE58C271AB1A216009D866C /* Vitalii App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vitalii App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BE58C2B1AB1A216009D866C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BE58C2C1AB1A216009D866C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3BE58C2E1AB1A216009D866C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3BE58C311AB1A216009D866C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BE58C331AB1A216009D866C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3BE58C361AB1A216009D866C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3BE58C3C1AB1A216009D866C /* Vitalii AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vitalii AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BE58C411AB1A216009D866C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BE58C421AB1A216009D866C /* Vitalii_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vitalii_AppTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BE58C241AB1A216009D866C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BE58C391AB1A216009D866C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BE58C1E1AB1A216009D866C = {
+			isa = PBXGroup;
+			children = (
+				3BE58C291AB1A216009D866C /* Vitalii App */,
+				3BE58C3F1AB1A216009D866C /* Vitalii AppTests */,
+				3BE58C281AB1A216009D866C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BE58C281AB1A216009D866C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BE58C271AB1A216009D866C /* Vitalii App.app */,
+				3BE58C3C1AB1A216009D866C /* Vitalii AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BE58C291AB1A216009D866C /* Vitalii App */ = {
+			isa = PBXGroup;
+			children = (
+				3BE58C2C1AB1A216009D866C /* AppDelegate.swift */,
+				3BE58C2E1AB1A216009D866C /* ViewController.swift */,
+				3BE58C301AB1A216009D866C /* Main.storyboard */,
+				3BE58C331AB1A216009D866C /* Images.xcassets */,
+				3BE58C351AB1A216009D866C /* LaunchScreen.xib */,
+				3BE58C2A1AB1A216009D866C /* Supporting Files */,
+			);
+			path = "Vitalii App";
+			sourceTree = "<group>";
+		};
+		3BE58C2A1AB1A216009D866C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BE58C2B1AB1A216009D866C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BE58C3F1AB1A216009D866C /* Vitalii AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BE58C421AB1A216009D866C /* Vitalii_AppTests.swift */,
+				3BE58C401AB1A216009D866C /* Supporting Files */,
+			);
+			path = "Vitalii AppTests";
+			sourceTree = "<group>";
+		};
+		3BE58C401AB1A216009D866C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BE58C411AB1A216009D866C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BE58C261AB1A216009D866C /* Vitalii App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BE58C461AB1A216009D866C /* Build configuration list for PBXNativeTarget "Vitalii App" */;
+			buildPhases = (
+				3BE58C231AB1A216009D866C /* Sources */,
+				3BE58C241AB1A216009D866C /* Frameworks */,
+				3BE58C251AB1A216009D866C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vitalii App";
+			productName = "Vitalii App";
+			productReference = 3BE58C271AB1A216009D866C /* Vitalii App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BE58C3B1AB1A216009D866C /* Vitalii AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BE58C491AB1A216009D866C /* Build configuration list for PBXNativeTarget "Vitalii AppTests" */;
+			buildPhases = (
+				3BE58C381AB1A216009D866C /* Sources */,
+				3BE58C391AB1A216009D866C /* Frameworks */,
+				3BE58C3A1AB1A216009D866C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BE58C3E1AB1A216009D866C /* PBXTargetDependency */,
+			);
+			name = "Vitalii AppTests";
+			productName = "Vitalii AppTests";
+			productReference = 3BE58C3C1AB1A216009D866C /* Vitalii AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BE58C1F1AB1A216009D866C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = kasutaja;
+				TargetAttributes = {
+					3BE58C261AB1A216009D866C = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					3BE58C3B1AB1A216009D866C = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 3BE58C261AB1A216009D866C;
+					};
+				};
+			};
+			buildConfigurationList = 3BE58C221AB1A216009D866C /* Build configuration list for PBXProject "Vitalii App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BE58C1E1AB1A216009D866C;
+			productRefGroup = 3BE58C281AB1A216009D866C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BE58C261AB1A216009D866C /* Vitalii App */,
+				3BE58C3B1AB1A216009D866C /* Vitalii AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BE58C251AB1A216009D866C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BE58C321AB1A216009D866C /* Main.storyboard in Resources */,
+				3BE58C371AB1A216009D866C /* LaunchScreen.xib in Resources */,
+				3BE58C341AB1A216009D866C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BE58C3A1AB1A216009D866C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BE58C231AB1A216009D866C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BE58C2F1AB1A216009D866C /* ViewController.swift in Sources */,
+				3BE58C2D1AB1A216009D866C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BE58C381AB1A216009D866C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BE58C431AB1A216009D866C /* Vitalii_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BE58C3E1AB1A216009D866C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BE58C261AB1A216009D866C /* Vitalii App */;
+			targetProxy = 3BE58C3D1AB1A216009D866C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3BE58C301AB1A216009D866C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BE58C311AB1A216009D866C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BE58C351AB1A216009D866C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BE58C361AB1A216009D866C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BE58C441AB1A216009D866C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BE58C451AB1A216009D866C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BE58C471AB1A216009D866C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Vitalii App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3BE58C481AB1A216009D866C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Vitalii App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3BE58C4A1AB1A216009D866C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Vitalii AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vitalii App.app/Vitalii App";
+			};
+			name = Debug;
+		};
+		3BE58C4B1AB1A216009D866C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Vitalii AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vitalii App.app/Vitalii App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BE58C221AB1A216009D866C /* Build configuration list for PBXProject "Vitalii App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BE58C441AB1A216009D866C /* Debug */,
+				3BE58C451AB1A216009D866C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BE58C461AB1A216009D866C /* Build configuration list for PBXNativeTarget "Vitalii App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BE58C471AB1A216009D866C /* Debug */,
+				3BE58C481AB1A216009D866C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3BE58C491AB1A216009D866C /* Build configuration list for PBXNativeTarget "Vitalii AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BE58C4A1AB1A216009D866C /* Debug */,
+				3BE58C4B1AB1A216009D866C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BE58C1F1AB1A216009D866C /* Project object */;
+}
