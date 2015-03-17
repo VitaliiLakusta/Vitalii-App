@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B13A7321AB1C0DB00233611 /* TableViewControllerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B13A7311AB1C0DB00233611 /* TableViewControllerCell.swift */; };
+		3B13A7341AB1C16A00233611 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B13A7331AB1C16A00233611 /* TableViewCell.swift */; };
 		3BE58C2D1AB1A216009D866C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE58C2C1AB1A216009D866C /* AppDelegate.swift */; };
 		3BE58C2F1AB1A216009D866C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE58C2E1AB1A216009D866C /* ViewController.swift */; };
 		3BE58C321AB1A216009D866C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BE58C301AB1A216009D866C /* Main.storyboard */; };
 		3BE58C341AB1A216009D866C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BE58C331AB1A216009D866C /* Images.xcassets */; };
 		3BE58C371AB1A216009D866C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BE58C351AB1A216009D866C /* LaunchScreen.xib */; };
 		3BE58C431AB1A216009D866C /* Vitalii_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE58C421AB1A216009D866C /* Vitalii_AppTests.swift */; };
+		3BE58C4D1AB1AAD5009D866C /* DetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE58C4C1AB1AAD5009D866C /* DetailsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B13A7311AB1C0DB00233611 /* TableViewControllerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewControllerCell.swift; sourceTree = "<group>"; };
+		3B13A7331AB1C16A00233611 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		3BE58C271AB1A216009D866C /* Vitalii App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vitalii App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BE58C2B1AB1A216009D866C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BE58C2C1AB1A216009D866C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +41,7 @@
 		3BE58C3C1AB1A216009D866C /* Vitalii AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vitalii AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BE58C411AB1A216009D866C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BE58C421AB1A216009D866C /* Vitalii_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vitalii_AppTests.swift; sourceTree = "<group>"; };
+		3BE58C4C1AB1AAD5009D866C /* DetailsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +83,12 @@
 		3BE58C291AB1A216009D866C /* Vitalii App */ = {
 			isa = PBXGroup;
 			children = (
+				3B13A7311AB1C0DB00233611 /* TableViewControllerCell.swift */,
 				3BE58C2C1AB1A216009D866C /* AppDelegate.swift */,
 				3BE58C2E1AB1A216009D866C /* ViewController.swift */,
+				3BE58C4C1AB1AAD5009D866C /* DetailsTableViewController.swift */,
 				3BE58C301AB1A216009D866C /* Main.storyboard */,
+				3B13A7331AB1C16A00233611 /* TableViewCell.swift */,
 				3BE58C331AB1A216009D866C /* Images.xcassets */,
 				3BE58C351AB1A216009D866C /* LaunchScreen.xib */,
 				3BE58C2A1AB1A216009D866C /* Supporting Files */,
@@ -212,8 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B13A7341AB1C16A00233611 /* TableViewCell.swift in Sources */,
 				3BE58C2F1AB1A216009D866C /* ViewController.swift in Sources */,
+				3BE58C4D1AB1AAD5009D866C /* DetailsTableViewController.swift in Sources */,
 				3BE58C2D1AB1A216009D866C /* AppDelegate.swift in Sources */,
+				3B13A7321AB1C0DB00233611 /* TableViewControllerCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +419,7 @@
 				3BE58C481AB1A216009D866C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3BE58C491AB1A216009D866C /* Build configuration list for PBXNativeTarget "Vitalii AppTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +428,7 @@
 				3BE58C4B1AB1A216009D866C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
